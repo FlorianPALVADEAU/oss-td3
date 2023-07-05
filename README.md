@@ -15,15 +15,9 @@ This library is made to retrieve data from the "annuaire des mairies"'s website 
 ```bash
     php vendor/bin/phpunit tests
 ```
-## Run the functions
+## How to retrieve all the cities name and population ?
 
-To display the city with the highest population
+
 ```bash
-    composer maxpop
+    php build/index.php
 ```
-
-To display all the Yvelines's cities with it's population
-```bash
-    composer maxpop
-```
-
