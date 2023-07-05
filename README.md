@@ -1,4 +1,4 @@
-# Get random number 🔥
+# Get Cities Data 🔥
 
 This library is made to retrieve data from the "annuaire des mairies"'s website of the Yvelines.' 
 
