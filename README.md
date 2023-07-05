@@ -1,10 +1,8 @@
 # Get random number 🔥
 
-A beautiful demo package
+This library is made to retrieve data from the "annuaire des mairies"'s website of the Yvelines.' 
 
 ## Installation
-
-## Local Development
 
 ```bash
     composer install
@@ -17,3 +15,15 @@ A beautiful demo package
 ```bash
     php vendor/bin/phpunit tests
 ```
+## Run the functions
+
+To display the city with the highest population
+```bash
+    composer maxpop
+```
+
+To display all the Yvelines's cities with it's population
+```bash
+    composer maxpop
+```
+
