@@ -1,0 +1,31 @@
+{
+    "name": "fpalvadeau/oss-td3",
+    "description": "Super library to scrap data from a website !",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fpalvadeau\\OssTd3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Florian PALVADEAU",
+            "email": "florian.palvadeau@edu.devinci.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "symfony/http-client": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2",
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "phpstan": "@php vendor/bin/phpstan analyze src --level=max",
+        "test": "@php vendor/bin/phpunit tests",
+        "maxpop": "@php src/Scrapping.php maxpop",
+        "cities": "@php src/Scrapping.php cities"
+    }
+}
