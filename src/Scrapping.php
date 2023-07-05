@@ -6,6 +6,9 @@ use Symfony\Component\HttpClient\HttpClient;
 
 class Scrapping
 {
+    /**
+     * @return array<array<string, int>>
+     */
     public function getCitiesAndPopulation(): array
     {
         $client = HttpClient::create();
@@ -46,7 +49,9 @@ class Scrapping
         var_dump($data);
         return $data;
     }
-
+    /**
+     * @return array<array<string, int>>
+     */
     public function getMaxPopulation(): array
     {
         $client = HttpClient::create();
